@@ -2,3 +2,27 @@ body {
 	background-color: #fff;
 	font-family: 'Lato', sans-serif;
 }
+
+#title {
+	font-size: 25px;
+	color: #000;
+	font-weight: lighter;
+}
+
+#sidebar {
+	position: relative;
+	top: 80px;
+	left: 100px;
+	width: 150px;
+	padding: 5px;
+	border-style: none;
+}
+
+nav a {
+	display: block;
+	margin: auto; 
+	color: #95e2ff;
+}
+nav a:hover {
+	color: #3d81ff;
+}
