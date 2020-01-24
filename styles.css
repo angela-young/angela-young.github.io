@@ -2,6 +2,23 @@ body {
 	background-color: #fff;
 	font-family: 'Lato', sans-serif;
 }
+a {
+	text-decoration: none;
+	color: #b78aff;
+}
+/*a:visited {
+	color: #f28aff;
+	text-decoration: none;
+}*/
+a:hover {
+	text-decoration: none;
+	color: #4a007e;
+	font-style: italic;
+}
+a:active {
+	text-decoration: none;
+	color: #8a98ff;
+}
 #title {
 	font-size: 25px;
 	color: #000;
