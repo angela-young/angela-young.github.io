@@ -2,13 +2,11 @@ body {
 	background-color: #fff;
 	font-family: 'Lato', sans-serif;
 }
-
 #title {
 	font-size: 25px;
 	color: #000;
 	font-weight: lighter;
 }
-
 #sidebar {
 	position: relative;
 	top: 80px;
@@ -17,7 +15,14 @@ body {
 	padding: 5px;
 	border-style: none;
 }
-
+.content {
+	position: fixed;
+	top: 50px;
+	left: 400px;
+	z-index: -1;
+	margin-top: 0px;
+	padding-right: 50px;
+}
 nav a {
 	display: block;
 	margin: auto; 
